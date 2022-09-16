@@ -9,6 +9,10 @@ function Def (html) {
                 <link rel='stylesheet' href='/css/style.css'/>
             </head>
             <body>
+            //pape css//
+            <div id="paper">
+            <div id="pattern">
+            <div id="content">
                 <nav>
                     <li>
                         <a href='/posts'>Posts</a>
@@ -21,6 +25,9 @@ function Def (html) {
                     </li>
                 </nav>
                 {html.children}
+            </div>
+            </div>
+            </div>
             </body>
         </html>
     )
