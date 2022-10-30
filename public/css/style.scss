@@ -1,0 +1,119 @@
+//values
+$fonts:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+$size: 5px;
+
+//imports
+
+@import "colors";
+
+//mixins
+
+
+@mixin nav-alone {
+    width: 100%;
+    height: 80px;
+    background-color: khaki;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+@mixin collum {
+    background-color: $nav-bar;
+    border: 1px solid $color3;
+    padding: $size*6;
+    box-shadow: $size $size $shadow;
+    color: rgb(7, 149, 139);
+    font-weight: bold;
+    margin: auto;
+}
+
+//functions, etc
+
+h1 {
+    color:$h1-color; 
+    font-family: $fonts;
+    border: $size double $border-1;
+}
+
+
+li, label{
+    font-family: $fonts;
+
+}
+
+.form-group {
+    margin: 1.5em;
+}
+
+.btn-primary {
+    margin: 1.5em;
+}
+
+
+nav {
+
+    @include nav-alone;
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+li {
+    display: inline;
+    margin-right: $size*5;
+}
+
+a {
+    font-family: Impact;
+    color: $color2;
+    font-size: 1.5em;
+}
+
+
+a:hover {
+    color: $hover-color;
+    margin: +$size;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.buttons li {
+    display: inline-block;
+}
+
+h2 {
+    color: $color;
+}
+
+@import "body";
+
+.col-sm-6 {
+    @include collum();
+    min-width: $size*20;
+    max-width: $size*80;
+    min-height: $size*40;
+    max-height: $size*200;
+    
+}
+
+a {
+    margin: $size*2;
+    font-family: $fonts;
+}
+
+
+img{
+    width: $size*60;
+    height: auto;
+}
