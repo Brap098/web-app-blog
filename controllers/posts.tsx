@@ -3,7 +3,7 @@ const db = require('../models')
 
 router.get('/', (req, res) => {
   db.Post.find()
-    .then((posts => {
+    .then(((posts: any) => {
         res.render('posts/index', {posts})
     }))
     .catch(err => {
