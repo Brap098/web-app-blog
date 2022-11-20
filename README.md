@@ -2,6 +2,9 @@
 
 This is the server directory for a blog web application named "Post-it"
 
+## discription
+This is a blog site based to look like a post-it board on a note book.
+
 ## Routes
 
 | Method | Path  | Purpose |
@@ -23,7 +26,10 @@ MongoDB, Express, NodeJS
 
 ![Screenshot 2022-11-19 211130](https://user-images.githubusercontent.com/100176143/202879408-0fdbd993-53cf-4f73-afe1-fa9c1e4e4b9e.png)
 
-
+## To add/isue
+The input page needs the colors changed.
+Should add a user and passwords.
+add a search function
 ## References
 
 Referenced the following site for information on how to connect frontend to backend:
