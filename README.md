@@ -1,4 +1,4 @@
-# Project Post-it Backend 
+# Project Post-it
 
 This is the server directory for a blog web application named "Post-it"
 
@@ -18,6 +18,11 @@ This is the server directory for a blog web application named "Post-it"
 ## Technologies
 
 MongoDB, Express, NodeJS
+
+## Example
+
+![Screenshot 2022-11-19 211130](https://user-images.githubusercontent.com/100176143/202879408-0fdbd993-53cf-4f73-afe1-fa9c1e4e4b9e.png)
+
 
 ## References
 
